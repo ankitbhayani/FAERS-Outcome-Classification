@@ -1,2 +1,31 @@
 # FAERS-Outcome-Classification
-A web-based interactive system for adverse reaction detection and analysis.
+
+## Introduction
+A web-based interactive system for adverse reaction detection and analysis. The problem addressed by this project is to classify the outcome of the drug reaction combination supplied to a patient based on the reported event. Since, we have different reported event by various organization we need to check whether the drug and reaction combination falls under following categories:
+
+* Death
+* Life-Threatening
+* Hospitalization
+* Initial or Prolonged
+* Disability
+* Congenital Anomaly
+* Required Intervention
+* Prevent Permanent Impairment/Damage
+* Other Serious (Important Medical Event)
+
+# Sections
+**Section 1:** Data wrangling
+Data Download and pre-processing
+Exploratory Data analysis on Tableau
+ 
+**Section 2:** Dockerizing the whole Process
+Luigi Pipeline
+Docker Image on Ubuntu
+Result on Amazon S3
+ 
+**Section 3:** Building and Evaluating  Multi  Class Classification Model
+Classification using Multi-Class Logistic Regression, Multi-Class Random Forest, Multi-Class Neural Network, One vs All Multi-Class SVN Algorithms
+ 
+**Section 4:** Creating User Interface for the FDA/Health Professional & User (Patient)
+FDA/Health Professional: will use the user interface to predict the probability of the drug reaction -outcome based on certain parameters
+User (Patient): Can search for adverse drug reaction which can be caused through a drug
