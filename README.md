@@ -29,3 +29,13 @@ A web-based interactive system for adverse reaction detection and analysis. The 
 * **Section 4: Creating User Interface for the FDA/Health Professional & User (Patient)**:
   * FDA/Health Professional: will use the user interface to predict the probability of the drug reaction -outcome based on certain parameters
   * User (Patient): Can search for adverse drug reaction which can be caused through a drug
+
+## Docker Instructions:
+   * docker pull ankitbhayani/finalprojectads2017
+   * docker run -e ACCESS_KEY=<YOUR_ACCESS_KEY> -e SECRET_KEY=<YOUR_SECRET_KEY> -e S3_PATH=<YOUR_S3_PATH>  -e REGION=<BUCKET_REGION> ankitbhayani/finalprojectads2017 /src/driverShell.sh
+
+## Youtube Link
+
+```
+http://faersoutcomeclassificationteam05.azurewebsites.net/FAERsADS_TEAM05/index.htm
+```
