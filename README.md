@@ -15,8 +15,8 @@ A web-based interactive system for adverse reaction detection and analysis. The 
 
 ## Sections
 * **Section 1: Data wrangling**:
-Data Download and pre-processing
-Exploratory Data analysis on Tableau
+  * Data Download and pre-processing
+  * Exploratory Data analysis on Tableau
  
 * **Section 2: Dockerizing the whole Process**:
 Luigi Pipeline
@@ -26,6 +26,6 @@ Result on Amazon S3
 * **Section 3: Building and Evaluating  Multi  Class Classification Model**:
 Classification using Multi-Class Logistic Regression, Multi-Class Random Forest, Multi-Class Neural Network, One vs All Multi-Class SVN Algorithms
  
-* **Section 4: Creating User Interface for the FDA/Health Professional & User (Patient)**: 
+* **Section 4: Creating User Interface for the FDA/Health Professional & User (Patient)**:
 FDA/Health Professional: will use the user interface to predict the probability of the drug reaction -outcome based on certain parameters
 User (Patient): Can search for adverse drug reaction which can be caused through a drug
