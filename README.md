@@ -37,5 +37,5 @@ A web-based interactive system for adverse reaction detection and analysis. The 
 ## Youtube Link
 
 ```
-http://faersoutcomeclassificationteam05.azurewebsites.net/FAERsADS_TEAM05/index.htm
+[http://faersoutcomeclassificationteam05.azurewebsites.net/FAERsADS_TEAM05/index.htm](http://faersoutcomeclassificationteam05.azurewebsites.net/FAERsADS_TEAM05/index.htm)
 ```
